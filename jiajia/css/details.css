@@ -125,47 +125,71 @@
      padding: 0;
      list-style: none;
  }
- .itemarea {
-     position: absolute;
-     left: 0;
-     top: 0px;
-     width: 90%;
-     height: 60%px;
-     border: 1px #888 solid;
-     margin: 5px auto;
- }
- .itemarea .pic {
-     margin-bottom: 15px;
- }
- .itemarea .pic img {
-     width: 400px;
-     height: 300px;
- }
- .itemarea .pic .cover {
-     position: absolute;
-     left: 0;
-     top: 0;
-     width: 150px;
-     height: 150px;
-     background: rgba(84, 94, 129, .6);
-     display: none;
- }
- .itemarea .list {
-     display: flex;
- }
+ /* ------------------------ */
+   body {
+       background: #d8e7fa;
+   }
 
- .itemarea .list li {
-     margin: auto;
- }
+   ul {
+       margin: 0;
+       padding: 0;
+       list-style: none;
+   }
 
- .itemarea .list img {
-     display: block;
-     width: 50px;
-     height: 50px;
- }
+   .itemarea {
+       position: relative;
+       width: 400px;
+       height: 300px;
+       border: 1px #888 solid;
+       margin: 0 0 100px 0;
+   }
 
+   .itemarea .pic {
+       margin-bottom: 15px;
+   }
 
- .itemarea .list .current {
-     border: 2px red solid;
- }
+   .itemarea .pic img {
+       width: 400px;
+       height: 300px;
+   }
+
+   .itemarea .pic .cover {
+       position: absolute;
+       left: 0;
+       top: 0;
+       width: 150px;
+       height: 150px;
+       background: rgba(84, 94, 129, .6);
+   }
+
+   .itemarea .list {
+       display: flex;
+   }
+
+   .itemarea .list li {
+       margin: auto;
+   }
+
+   .itemarea .list img {
+       display: block;
+       width: 50px;
+       height: 50px;
+   }
+
+   .itemarea .detail {
+       position: absolute;
+       /* display: none; */
+       top: 0;
+       left: 400px;
+       width: 400px;
+       height: 300px;
+       border: 1px solid #888;
+       background: url("../img/bus03.jpg");
+       background-size: 266%;
+       background-repeat: no-repeat;
+   }
+
+   .itemarea .list .current {
+       border: 2px red solid;
+   }
 
