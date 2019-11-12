@@ -1,0 +1,686 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.cont {
+    width: 1024px;
+    margin: 0 auto;
+
+
+}
+
+html {
+    color: -internal-root-color;
+    font-size: 14px;
+}
+
+/* 顶部 */
+.topNav {
+    width: 100%;
+    height: 30px;
+    background: #f7f7f7f7;
+}
+
+.topUser {
+    float: left;
+    line-height: 30px;
+}
+
+.topLeft {
+    line-height: 30px;
+    width: 30%;
+    height: 30px;
+    float: right;
+    display: flex;
+
+}
+
+.topLeft li {
+    width: 50%;
+    margin: 0 5px 0 5px;
+
+}
+
+/* 搜索框 */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+div.search {
+    padding: 30px 0
+}
+
+.logo {
+    width: 10%;
+    height: 42px;
+}
+
+.sea {
+    display: flex;
+}
+
+form {
+    position: relative;
+    width: 300px;
+    border: 2px solid #ffcc00;
+}
+
+.d1 {
+    margin: 20px 3% 0 5%;
+}
+
+.d1 input {
+    width: 80%;
+    height: 42px;
+    padding-left: 10px;
+    outline: none;
+    border: none;
+
+
+}
+
+.d1 button {
+    position: absolute;
+    top: 0;
+    right: 0px;
+    width: 42px;
+    height: 42px;
+    border: none;
+    background: #ffcc00;
+
+    cursor: pointer;
+}
+
+.d1 button:before {
+    content: "\f002";
+    font-family: FontAwesome;
+    font-size: 16px;
+    color: #F9F0DA;
+}
+
+.d1 span {
+    font-size: 16px;
+    color: #F9F0DA;
+}
+
+.car {
+    width: 80px;
+    height: 100%;
+    display: flex;
+    margin: 20px;
+    text-align: center;
+    line-height: 42px;
+    border: 2px solid #ffcc00;
+
+}
+
+.car>a {
+
+    width: 124px;
+    height: 42px;
+    list-style: none;
+    background: #f7f7f7f7;
+}
+
+.tel {
+    margin: 22px 0 0 55px;
+    width: 25%;
+    height: 42px;
+    text-align: center;
+    line-height: 42px;
+    font-size: 16px;
+    /* border: 2px solid #ccc; */
+}
+
+/* 导航 */
+.nas div p:hover{
+    color:#ffcc00;
+}
+.cll {
+    background: #ffcc00;
+}
+
+/* 内容 */
+.work {
+    width: 100%;
+    height: 80%;
+    border-top: 2px solid #000000;
+    background: #f7f7f7f7;
+}
+
+.maiNav {
+    width: 100%;
+    display: flex;
+
+}
+
+.men {
+    width: 17%;
+    position: relative;
+
+}
+
+.maiNav ul li {
+    width: 100%;
+    height: 57px;
+    font-size: 14px;
+    font-style: "\5FAE\8F6F\96C5\9ED1",
+        "Microsoft YaHei";
+    line-height: 57px;
+    text-align: center;
+    background: #fff;
+}
+
+.maiNav ul li:hover {
+    background: #ffcc00;
+}
+
+.maiNav ul li:hover .menL {
+    display: block;
+    z-index: 99;
+}
+
+.menL {
+    width: 850px;
+    height: 400px;
+    background: #fff;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    display: none;
+
+
+}
+
+.menL dl {
+    margin-bottom: 0;
+    display: flex;
+}
+
+.menL dl dt a:hover {
+    color: red;
+}
+
+.menL span {
+    float: left;
+}
+
+.menL div {
+    width: 800px;
+    height: 1px;
+    background: #ccc;
+}
+
+/* 轮播图 */
+.bans {
+    width: 850px;
+    height: 400px;
+    border: 2px solid #ccc;
+    position: relative;
+    overflow: hidden;
+}
+
+.bans>img {
+    width: 850px;
+    height: 400px;
+    position: absolute;
+    left: 850px;
+}
+
+.bans :nth-child(1) {
+    position: absolute;
+    left: 0;
+}
+
+.bansLeft {
+    width: 28px;
+    height: 66px;
+    position: absolute;
+    left: 0;
+    top: 200px;
+    font-size: 42px;
+    cursor: pointer;
+    color: #fff;
+    background: #ccc;
+}
+
+.bansRight {
+    width: 28px;
+    height: 66px;
+    position: absolute;
+    left: 820px;
+    top: 200px;
+    color: #fff;
+    font-size: 42px;
+    cursor: pointer;
+    background: #ccc;
+}
+
+/* 列表 */
+.work-list {
+    margin: 30px 0 20px 0;
+}
+
+.list-1 {
+    width: 60px;
+    height: 50px;
+    background: #ffcc00;
+    border-radius: 10%;
+
+}
+
+/* 轮播图 */
+.bans1 {
+    width: 100%;
+    height: 260px;
+    border: 2px solid #ccc;
+    position: relative;
+    overflow: hidden;
+}
+
+.bans1>img {
+    width: 100%;
+    height: 260px;
+    position: absolute;
+    left: 850px;
+}
+
+.bans1 :nth-child(1) {
+    position: absolute;
+    left: 0;
+}
+
+.bans1Left {
+    width: 66px;
+    height: 66px;
+    position: absolute;
+    left: 0;
+    top: 130px;
+    font-size: 42px;
+    cursor: pointer;
+    color: #fff;
+    border-radius: 50%;
+    background: #ccc;
+    text-align: center;
+}
+
+.bans1Right {
+    width: 66px;
+    height: 66px;
+    position: absolute;
+    left: 960px;
+    top: 130px;
+    color: #fff;
+    font-size: 42px;
+    cursor: pointer;
+    border-radius: 50%;
+    background: #ccc;
+    text-align: center;
+}
+
+/* 限时抢购 */
+.buy {
+    width: 100%;
+    height: 41px;
+
+}
+
+.buy-left {
+    float: left;
+    margin: 8px;
+}
+
+.buy-right {
+    width: 300px;
+    display: flex;
+    float: right;
+    margin: 8px 10px 0 10px;
+}
+
+.buy-right h3 {
+    margin: 0 10px 0 10px;
+}
+
+.bus {
+    width: 100%;
+    height: 260px;
+    display: flex;
+    text-align: center;
+  
+
+}
+
+.bus div {
+    margin-left: 3px;
+    width: 200px;
+    height: 260px;
+    background: #fff;
+    text-align: center;
+}
+
+.bus img {
+    width: 180px;
+    height: 180px;
+    margin-top: 5px;
+}
+
+.bus p {
+    height: 30px;
+    margin-bottom: 10px;
+}
+
+.bus span :nth-child(1) {
+    border: 1px solid #ffcc00;
+    width: 120px;
+   
+}
+
+.bus span :nth-child(2) {
+    background: #ffcc00;
+
+}
+.work h4{
+    padding: 10px;
+    margin: 0;
+    border-bottom:1px solid #000 ;
+    
+}
+/* 热门活动 */
+.but{
+    width: 100%;
+    height: 800px;
+}
+.but ul{
+    width: 98%;
+    height: 98%;
+    margin: 1%;
+    /* background: #ccc; */
+   
+}
+.but ul li{
+    width: 48%;
+    margin: 1%;
+    margin-bottom:0 ;
+    float: left;
+}
+.but ul li img{
+    width: 100%;
+    height: 250px;
+}
+/* 最新商品 */
+.buq h4 span{
+    float: right;
+}
+.buq{
+    width: 100%;
+    height: 500px;
+}
+.buq-s{
+    width: 100%;
+    display: flex;
+}
+.buq-left{
+    width: 30%;
+    height: 450px;
+    margin: 6px;
+    background: #ccc;
+    position: relative;
+    overflow: hidden;
+}
+.buq-left img{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 100%;
+    top: 0;
+}
+.buq-left img:nth-child(1){
+    position: absolute;
+    left: 0;
+}
+.buq-left-sub{
+    position: absolute;
+    left: 0;
+    top: 220px;
+    font-size: 26px;
+    cursor: pointer;
+}
+.buq-right-sub{
+    position: absolute;
+    left:95%;
+    top:220px;
+    font-size: 26px;
+    cursor: pointer;
+}
+.buq-right{
+    width: 69%;
+    height: 450px;
+    margin-top: 6px;
+    background: #f7f7f7f7;
+}
+.buq-right ul{
+    width: 100%;
+    height: 450px;
+  
+   
+}
+.buq-right ul li{
+    width: 24%;
+    margin: 3px;
+    float: left;
+    border: 2px solid #fff;
+    background: #fff;
+}
+.buq-right ul li p{
+    margin: 1px;
+    padding: 3px;
+   
+}
+.buq-right ul li img{
+    width: 100%;
+    height:143px;
+}
+.buq-right ul li:hover{
+     border: 2px solid red;
+}
+/* 家访用品 */
+.buw-left {
+    width: 30%;
+    height: 450px;
+    margin: 6px;
+    position: relative;
+    overflow: hidden;
+}
+.buw-banns{
+    width: 100%;
+    height: 50%;
+    position: relative;
+    overflow: hidden;
+}
+.buw-banns img{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 100%;
+    top:0;
+    z-index: 99;
+}
+.buw-banns img:nth-child(1){
+    position: absolute;
+    left: 0;
+}
+
+.buw-left-left{
+    position: absolute;
+    left: 0;
+    top:50%;
+    font-size: 25px;
+    cursor: pointer;
+}
+.buw-left-right{
+    position: absolute;
+    left: 90%;
+    top: 50%;
+    cursor: pointer;
+}
+.buw-bottom{
+    width: 100%;
+    height: 50%;
+    
+}
+.buw-bottom ul{
+  width: 100%;
+  background: #fff;
+}
+.buw-bottom ul li {
+    border: 1px solid #fff;
+    float: left;
+    margin: 5px ;
+}
+.buw-bottom ul li:hover{
+     border: 1px solid red;
+}
+.buw-bottom ul li img {
+    width: 88px;
+    height: 88px;
+
+
+}
+.buw-left {
+    width: 30%;
+    height: 450px;
+    margin: 6px;
+    background: #ccc;
+    position: relative;
+    overflow: hidden;
+}
+.buw-s-banns{
+    width: 100%;
+    height: 50%;
+    position: relative;
+}
+.buw-s-banns img{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 100%;
+    top: 0;
+}
+.buw-s-banns img:nth-child(1){
+    position: absolute;
+    left: 0;
+}
+ .work.brandList img{
+    height: 35px;
+}
+.brandList-foot img{
+  float: left;
+  width: 32%; 
+  margin: 5px;   
+}
+.footer {
+    width: 100%;
+    height: 80px;
+    background: #f7f7f7;
+}
+
+.footer>dl {
+
+
+    height: 80px;
+
+
+}
+
+.footer dl dt {
+    float: left;
+    width: 25%;
+    height: 100%;
+    text-align: center;
+    margin: 10px 0px 0 0px;
+}
+/* 底部 */
+.foot-top{
+    width: 100%;
+    height: 297px;
+    
+}
+.foot-top-left{
+    float: left;
+    width: 60%;
+    height: 297px;
+    display: flex;
+}
+.foot-top-left ul{
+    margin: 40px;
+}
+.foot-top-right{
+    float: left;
+    width: 40%;
+    height: 297px;
+  
+}
+.foot-top-right-left{
+    float: left;
+      margin-right:30px;
+      text-align: center;
+}
+.foot-top-right-right {
+    float: left;
+     text-align: center;
+}
+.foot-top-right-left img{
+    margin-top: 50px;
+    width: 150px;
+    height: 150px;
+}
+.foot-top-right-right img {
+      margin-top: 50px;
+    
+    width: 150px;
+    height: 150px;
+}
+.foot-bottom{
+    width: 100%;
+    height:251px;
+    text-align: center;
+}
+.foot-bottom ul{
+    display: flex;
+    margin: 0 400px 0;
+    
+}
+.foot-bottom  p{
+    text-align: center;
+    margin: 0;
+}
+.foot-bottom img{
+    width: 50px;
+    height: 50px;
+}
+/* 楼层  */
+.floor{
+    position: absolute;
+    left: 0;
+    top: 1000px;
+}
+.floor ul li{
+    width: 80px;
+    height: 30px;
+    text-align: center;
+    border: 1px solid #ccc;
+}
+.floor ul li:hover{
+    background:#ffcc00;
+}
+
+
+       
+
+ 

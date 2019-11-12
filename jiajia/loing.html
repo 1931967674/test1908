@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/login.css">
+    <link rel="stylesheet" href="css/index.css">
+    <script src="js/index.js"></script>
+    <script src="js/jquery.js"></script>
+    <script src="js/jquery.validate.js"></script>
+    <script src="js/login.js"></script>
+</head>
+
+<body>
+    <div class="login cont">
+        <img src="img/logo.png">
+        <img src="img/logo3.png">
+        <span>注册</span>
+    </div>
+    <div class="loIng cont">
+        <h2>创建新用户</h2>
+        <div class="post">
+            <ul>
+                <li>用户名：<input type="text" id="user"></li><span></span>
+                <li>密码：<input type="password" id="pass"></li><span></span>
+                <li>确认密码：<input type="password" id="pas"> </li><span></span>
+                <li>联系方式<input type="text" id="tel"> </li>
+                <li><button>提交</button></li>
+
+            </ul>
+        </div>
+    </div>
+    <div class="foot">
+
+    </div>
+
+</body>
+<script>
+    $("form").validate();
+</script>
+
+</html>

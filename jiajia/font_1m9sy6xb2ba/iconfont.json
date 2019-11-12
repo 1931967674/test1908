@@ -1,0 +1,128 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "700847",
+      "name": "手机",
+      "font_class": "shouji",
+      "unicode": "e64f",
+      "unicode_decimal": 58959
+    },
+    {
+      "icon_id": "1048455",
+      "name": "酒水",
+      "font_class": "jiushui",
+      "unicode": "e640",
+      "unicode_decimal": 58944
+    },
+    {
+      "icon_id": "1117915",
+      "name": "帮助",
+      "font_class": "bangzhu",
+      "unicode": "e77c",
+      "unicode_decimal": 59260
+    },
+    {
+      "icon_id": "1244098",
+      "name": "我的",
+      "font_class": "wode",
+      "unicode": "e636",
+      "unicode_decimal": 58934
+    },
+    {
+      "icon_id": "1309816",
+      "name": "钻石",
+      "font_class": "zuanshi",
+      "unicode": "e621",
+      "unicode_decimal": 58913
+    },
+    {
+      "icon_id": "1313805",
+      "name": "服装",
+      "font_class": "yifu",
+      "unicode": "e65a",
+      "unicode_decimal": 58970
+    },
+    {
+      "icon_id": "2325917",
+      "name": "客服",
+      "font_class": "kefu",
+      "unicode": "e637",
+      "unicode_decimal": 58935
+    },
+    {
+      "icon_id": "3979420",
+      "name": "家具",
+      "font_class": "jiaju",
+      "unicode": "e616",
+      "unicode_decimal": 58902
+    },
+    {
+      "icon_id": "4954949",
+      "name": "扫码",
+      "font_class": "saoma",
+      "unicode": "e65d",
+      "unicode_decimal": 58973
+    },
+    {
+      "icon_id": "5174142",
+      "name": "化妆品-护肤品",
+      "font_class": "huazhuangpin-hufupin",
+      "unicode": "e63f",
+      "unicode_decimal": 58943
+    },
+    {
+      "icon_id": "5218165",
+      "name": "邮票",
+      "font_class": "youpiao",
+      "unicode": "e604",
+      "unicode_decimal": 58884
+    },
+    {
+      "icon_id": "6528214",
+      "name": "消息",
+      "font_class": "xiaoxi",
+      "unicode": "e67b",
+      "unicode_decimal": 59003
+    },
+    {
+      "icon_id": "7192329",
+      "name": "心",
+      "font_class": "xin",
+      "unicode": "e60b",
+      "unicode_decimal": 58891
+    },
+    {
+      "icon_id": "7974092",
+      "name": "电话",
+      "font_class": "dianhua",
+      "unicode": "e605",
+      "unicode_decimal": 58885
+    },
+    {
+      "icon_id": "8106279",
+      "name": "callout",
+      "font_class": "callout",
+      "unicode": "e69e",
+      "unicode_decimal": 59038
+    },
+    {
+      "icon_id": "8776822",
+      "name": "cart_empty",
+      "font_class": "icon-test",
+      "unicode": "e63b",
+      "unicode_decimal": 58939
+    },
+    {
+      "icon_id": "8777370",
+      "name": "list",
+      "font_class": "icon-test1",
+      "unicode": "e650",
+      "unicode_decimal": 58960
+    }
+  ]
+}

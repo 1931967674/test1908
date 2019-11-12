@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.cont {
+    width: 1024px;
+    margin: 0 auto;
+
+
+}
+
+html {
+    color: -internal-root-color;
+    font-size: 14px;
+}
+
+/* 顶部 */
+.topNav {
+    width: 100%;
+    height: 30px;
+    background: #f7f7f7f7;
+}
+
+.topUser {
+    float: left;
+    line-height: 30px;
+}
+
+.topLeft {
+    line-height: 30px;
+    width: 30%;
+    height: 30px;
+    float: right;
+    display: flex;
+
+}
+
+.topLeft li {
+    width: 50%;
+    margin: 0 5px 0 5px;
+
+}
+
+/* 搜索框 */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+div.search {
+    padding: 30px 0
+}
+
+.logo {
+    width: 10%;
+    height: 42px;
+}
+
+.sea {
+    display: flex;
+}
+
+form {
+    position: relative;
+    width: 300px;
+    border: 2px solid #ffcc00;
+}
+
+.d1 {
+    margin: 20px 3% 0 5%;
+}
+
+.d1 input {
+    width: 80%;
+    height: 42px;
+    padding-left: 10px;
+    outline: none;
+    border: none;
+
+
+}
+
+.d1 button {
+    position: absolute;
+    top: 0;
+    right: 0px;
+    width: 42px;
+    height: 42px;
+    border: none;
+    background: #ffcc00;
+
+    cursor: pointer;
+}
+
+.d1 button:before {
+    content: "\f002";
+    font-family: FontAwesome;
+    font-size: 16px;
+    color: #F9F0DA;
+}
+
+.d1 span {
+    font-size: 16px;
+    color: #F9F0DA;
+}
+
+.car {
+    width: 80px;
+    height: 100%;
+    display: flex;
+    margin: 20px;
+    text-align: center;
+    line-height: 42px;
+    border: 2px solid #ffcc00;
+
+}
+
+.car>a {
+
+    width: 124px;
+    height: 42px;
+    list-style: none;
+    background: #f7f7f7f7;
+}
+
+.tel {
+    margin: 22px 0 0 55px;
+    width: 25%;
+    height: 42px;
+    text-align: center;
+    line-height: 42px;
+    font-size: 16px;
+    /* border: 2px solid #ccc; */
+}
+
+/* 导航 */
+.nas div p:hover {
+    color: #ffcc00;
+}
+
+.cll {
+    background: #ffcc00;
+}

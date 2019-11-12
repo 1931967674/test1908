@@ -1,0 +1,116 @@
+/* 商品列表内容 */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.listWork {
+    width: 100%;
+    border-top: 2px solid #000;
+}
+
+.listWork-top h2 {
+    margin: 7px;
+    background: #f7f7f7;
+    overflow: hidden;
+    font-size: 20px;
+
+}
+
+.listWork-top h2 div {
+    float: right;
+}
+
+.listWork-top h2 div span:nth-child(2) {
+    border: 1px solid #ccc;
+}
+
+.listWork-foot {
+    display: flex;
+}
+
+.listWork-foot .listWork-left {
+    width: 18%;
+
+    background: #ccc;
+    margin: 10px;
+}
+
+.listWork-foot .listWork-right {
+    width: 80%;
+}
+
+.listWork-left img {
+    width: 100%;
+}
+
+.listWork-left p {
+    margin-bottom: 0;
+}
+
+.listWork-left ul li {
+    border-bottom: 1px solid #ccc;
+}
+
+.listWork-right h2 {
+    background: #f7f7f7;
+    overflow: hidden;
+    font-size: 14px;
+}
+
+.listWork-right h2 input {
+    width: 100px;
+}
+
+.listWork-right ul {
+    width: 100%;
+    overflow: hidden;
+
+}
+
+.listWork-right ul li {
+    width: 22%;
+    float: left;
+    text-align: center;
+    border: 1px solid #ccc;
+}
+.listWork-right ul li a{
+     text-decoration:none;
+
+}
+.listWork-right ul li:hover{
+      border: 1px solid red;
+}
+.listWork-right ul li img {
+    width: 90%;
+    margin-top: 5px;
+
+}
+
+.listWork-right ul li p:nth-child(4) {
+    text-align: center;
+}
+
+.listWork-right ul li span {
+    color: red;
+
+}
+.footer{
+     width: 100%;
+     height: 80px;
+     background: #f7f7f7;
+}
+.footer>dl {
+    
+   
+    height: 80px;
+   
+   
+}
+.footer dl dt {
+     float: left;
+    width: 25%;
+    height: 100%;
+    text-align: center;
+    margin: 10px 0px 0 0px;
+}
