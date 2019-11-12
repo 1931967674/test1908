@@ -1,0 +1,2 @@
+git remote add origin https://github.com/1931967674/wei.git
+ git push -u origin master

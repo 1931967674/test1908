@@ -17,7 +17,7 @@ class car{
                 <td>${this.res[i].num}</td>
                 <td>${this.res[i].parse}</td>
                 <td><span class="dele">&times;<span/></td>
-                <td>${1*this.res[i]}</td>
+                <td>${this.res[i].parse}</td>
             </tr>`
         }
         $("tbody").html(str);

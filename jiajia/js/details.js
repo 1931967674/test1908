@@ -29,55 +29,55 @@ $(".glass").hover(function () {
           })
 })
 // 放大镜的功能
-//  var list = document.querySelector(".list"),
-//      imgs = list.querySelectorAll("img"),
-//      img = document.querySelector(".pic img"),
+ var list = document.querySelector(".list"),
+     imgs = list.querySelectorAll("img"),
+     img = document.querySelector(".pic img"),
      
-//      pic = document.querySelector(".itemarea .pic"),
-//      cover = document.querySelector(".cover"),
-//     detail = document.querySelector('.detail');
-//     //  console.log(img);
-//  list.addEventListener("mousemove", function (e) {
-//      if (e.target.tagName == "IMG") { //判断ul里面的li的img是否等于IMG，如果等于，执行，这是js的事件委托，一种机制，父元素设置，给子元素触发
-//          img.src = e.target.src; //将当前元素img的src赋给img
-//          detail.style.backgroundImage = 'url(' + e.target.src + ')';
-//          imgs.forEach(function (item) { //forEach() 方法用于调用数组的每个元素，并将元素传递给回调函数
-//              item.className = ""; //让img的类名等于空，循环判断，清空所有img的类名
-//          })
-//          e.target.className = "current"; //给当前元素设置类名
-//      }
-//  })
-//  pic.addEventListener("mousemove", function (e) {
-//      var x = e.clientX,
-//          y = e.clientY,
-//          cx = pic.getBoundingClientRect().left,
-//          cy = pic.getBoundingClientRect().top,
-//          tx = x - cx - 75,
-//          ty = y - cy - 75;
-//      if (tx < 0) {
-//          tx = 0;
-//      }
-//      if (ty < 0) {
-//          ty = 0;
-//      }
-//      if (tx > 250) {
-//          tx = 250;
-//      }
-//      if (ty > 150) {
-//          ty =150;
-//      }
-//      detail.style.backgroundPosition = tx / 250 * 100 + '%' + ty / 250 * 100 + '%';
-//      cover.style.left = tx + 'px';
-//      cover.style.top = ty + 'px';
-//  })
+     pic = document.querySelector(".itemarea .pic"),
+     cover = document.querySelector(".cover"),
+    detail = document.querySelector('.detail');
+    //  console.log(img);
+ list.addEventListener("mousemove", function (e) {
+     if (e.target.tagName == "IMG") { //判断ul里面的li的img是否等于IMG，如果等于，执行，这是js的事件委托，一种机制，父元素设置，给子元素触发
+         img.src = e.target.src; //将当前元素img的src赋给img
+         detail.style.backgroundImage = 'url(' + e.target.src + ')';
+         imgs.forEach(function (item) { //forEach() 方法用于调用数组的每个元素，并将元素传递给回调函数
+             item.className = ""; //让img的类名等于空，循环判断，清空所有img的类名
+         })
+         e.target.className = "current"; //给当前元素设置类名
+     }
+ })
+ pic.addEventListener("mousemove", function (e) {
+     var x = e.clientX,
+         y = e.clientY,
+         cx = pic.getBoundingClientRect().left,
+         cy = pic.getBoundingClientRect().top,
+         tx = x - cx - 75,
+         ty = y - cy - 75;
+     if (tx < 0) {
+         tx = 0;
+     }
+     if (ty < 0) {
+         ty = 0;
+     }
+     if (tx > 250) {
+         tx = 250;
+     }
+     if (ty > 150) {
+         ty =150;
+     }
+     detail.style.backgroundPosition = tx / 250 * 100 + '%' + ty / 250 * 100 + '%';
+     cover.style.left = tx + 'px';
+     cover.style.top = ty + 'px';
+ })
 //  --------------------------------
   
-//   function data() {
+  function data() {
 
-//       this.img = JSON.parse(localStorage.getItem('index')) || "";
+      this.img = JSON.parse(localStorage.getItem('index')) || "";
       
-//   }
-//   data();
+  }
+  data();
 class data{
     constructor() {
         this.obj1 = JSON.parse(localStorage.getItem('wei')) || "";
@@ -91,6 +91,7 @@ class data{
     }
     // 存购物车功能
     carRes() {
+        // console.log(that.obj1);
         var that = this;
         var str = [];
         for (var j = 0; j < that.obj1.length; j++){
@@ -98,36 +99,31 @@ class data{
         }
         
         $(".car-s").on("click", function () {
-         
+        
             that.obj.num = $(".mum")[0].innerHTML;
             // 第一次加购物车
             if (str.length < 1) {
                 str.push(that.obj);
             } else {
                 // 非第一次
+                var flag = true;
                 for (var i = 0; i < str.length; i++){
+                    // console.log(str[i].id,that.obj.id)
                     if (str[i].id == that.obj.id) {
                         str[i].num++;
-                    } else {
-                        str.push(that.obj);
-                       
-                    }
+                        flag = false;
+                        break;
+                    } 
+                }
+
+                if (flag) {
+                    str.push(that.obj);
                 }
             }
              
               console.log(str);
             localStorage.setItem("wei", JSON.stringify(str));
         })
-       
-
-
-
-
-
-
-
-
-
     }
 
     // 加减功能
