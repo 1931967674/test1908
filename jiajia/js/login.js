@@ -17,7 +17,6 @@ function fnLogin() {
         oError.innerHTML = "用户名长度必须在6~20位之间";
         isNotError = false;
         return;
-
     } else if (oUname.value.charCodeAt(0) >= 48 && oUname.value.charCodeAt(0) <= 57) {
         oError.innerHTML = "用户名开头不能为数字";
         isNotError = false;
@@ -36,6 +35,17 @@ function fnLogin() {
         isNotError = false;
         return;
     }
-    oError.innerHTML = "登录成功";
+    suc();
+    
+    
+}
+function suc() {
+  var user = JSON.parse(localStorage.getItem('user')) || "";
+    // console.log(user);
+    console.log($("#uname")[0].value);
+    console.log($("#upass")[0].value);
+    if ($("#uname")[0].value == user.user && $("#upass")[0].value == user.pass) {
+         alert("登陆成功");
+     }
     
 }

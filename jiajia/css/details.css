@@ -184,9 +184,9 @@
        width: 400px;
        height: 300px;
        border: 1px solid #888;
-       background: url("../img/bus03.jpg");
-       background-size: 266%;
-       background-repeat: no-repeat;
+       background: url("../img/bus03.jpg") no-repeat;
+       background-size: 100%;
+       /* background-repeat: no-repeat; */
    }
 
    .itemarea .list .current {

@@ -55,3 +55,14 @@ button{
     width: 200px;
     height: 30px;
 }
+.sub{
+    width: 200px;
+    height: 50px;
+    background: cyan;
+    text-align: center;
+    margin: 0 0px 0 200px ;
+    font-size: 20px;
+}
+.post ul li a{
+    list-style: none;
+}
