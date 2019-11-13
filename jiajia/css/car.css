@@ -1,0 +1,49 @@
+ h2 {
+     text-align: center;
+ }
+
+ table {
+     text-align: center;
+ }
+
+ .table th,
+ .table td {
+     text-align: center;
+     vertical-align: middle !important;
+ }
+
+ table thead th {
+     text-align: center;
+ }
+
+ img {
+     width: 50px;
+ }
+
+ .dele {
+     cursor: pointer;
+ }
+
+ .foot {
+     height: 40px;
+     border: 2px solid #ccc;
+     margin: 0 auto;
+ }
+
+ .foot span {
+     float: right;
+     width: 100px;
+     height: 38px;
+     border: 1px solid #ccc;
+     text-align: center;
+     line-height: 38px;
+ }
+  ._nav{
+      width: 100%;
+      height: 80px;
+  }
+ ._nav img{
+     width: 100%;
+     height: 110px; 
+
+ }

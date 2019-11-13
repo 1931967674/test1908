@@ -29,8 +29,9 @@ function listM(res) {
         str += `<li index="${res[i].id}"><a href="details.html">
              <img src="${res[i].url}">
                         <p>${res[i].name}</p>
-                        <span>${res[i].parse}</span>
-                        < p > 家家购物自营 </p></a >
+                        <span><i>￥</i>${res[i].parse}</span>
+                        <p> 家家购物自营 </p>
+                        </a >
                     </li>`;
     }
     $(".listWork-right ul").html(str);
